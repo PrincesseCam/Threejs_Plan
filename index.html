@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@600&family=Space+Mono&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    
+    <style>
+      body {
+        margin: 0;
+      }
+      .absolute {
+        position: absolute;
+      }
+      .text-color {
+        color:white;
+      }
+      .font-exo{
+        font-family: 'Exo 2', sans-serif;
+      }
+      .font-mono{
+        font-family: 'Space Mono', monospace;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app">
+      <div class="absolute text-color text-center" style="top: 50%; transform:translate(-50%, -50%);left:50%">
+        <h1 class="font-mono text-3xl ">Project1</h1>
+        <p class="font-exo text-2xl uppercase tracking-wide">This is a tutorial excercise</p>
+        <a href="https://princessecamwebsite.com/" class="border px-4 py-2 rounded-lg mt-8 hover:bg-red hover:text-white inline-block">view my website</a>
+      </div>
+    </div>
+    <script async src="https://unpkg.com/es-module-shims@1.3.6/dist/es-module-shims.js"></script>
+    <script type = "module" src="/main.js"></script> 
+  </body>
+</html>
